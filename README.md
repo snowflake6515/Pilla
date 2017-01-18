@@ -29,6 +29,8 @@ The transmitter runs at this configuration:
  - **Preflight Check** - Use this application as a preflight checklist, so that you will never forget any step necessary before flight. (Included in DC-24 SW version 4.10)
  - **Sensor Chart** - A display telemetry widget that can display any telemetry variable into a chart. (Included in DC-24 SW version 4.10)
  - **Source Dumper** - The app dumps compiled Lua chunks to files without debugging information (stripped down). Useful to shrink the app, reduce memory consumption, improve start-up time and prevent memory issues. 
+ - **BB_Vib** - An app that can vibrate left or right stick with user settable vibration profile to indicate Master vis-a-vis Buddy Box state of control.
+ - **BB_D_V** - A display telemetry addition to the BB_Vib app.  Displays icon and message in a double box telemetry window; optional via form.question.
 
 ##  Installation
 1. Connect the transmitter to PC and establish a link via USB (the transmitter is registered as a mass-storage device).
